@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char nome[15];
+    char nome_comp[15];
+    printf("Digete o seu nome: ");
+    gets(nome);
+    strcpy(nome_comp, nome);
+    strlen(nome_comp);
+    puts(nome_comp);
+}
