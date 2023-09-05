@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char nome[15];
+    printf("Digete o seu nome: ");
+    scanf("%s", nome);
+    char sobrenome[30];
+    printf("Digete o nosso sobrenome: ");
+    scanf("%s", sobrenome);
+    char end[30];
+    printf("Digete o endereco gata: ");
+    scanf("%s", end);
+    char tele[10];
+    printf("Digete seu telefone bb: ");
+    scanf("%s", tele);
+    char idade[3];
+    printf("Digete a sua idade: ");
+    scanf("%s", idade);
+    return 0;
+}
