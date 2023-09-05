@@ -4,18 +4,19 @@ int main()
 {
     char nome[15];
     printf("Digete o seu nome: ");
-    scanf("%s", nome);
+    gets(nome);
     char sobrenome[30];
     printf("Digete o nosso sobrenome: ");
-    scanf("%s", sobrenome);
+    gets(sobrenome);
     char end[30];
     printf("Digete o endereco gata: ");
-    scanf("%s", end);
+    gets(end);
     char tele[10];
     printf("Digete seu telefone bb: ");
-    scanf("%s", tele);
+    gets(tele);
     char idade[3];
     printf("Digete a sua idade: ");
-    scanf("%s", idade);
+    gets(idade);
+    printf("Nome: %s \nSobrenome: %s \nEndereço: %s \nTelefone: %s \nIdade: %s", nome, sobrenome, end, tele, idade);
     return 0;
 }
