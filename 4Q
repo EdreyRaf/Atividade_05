@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    int n;
+    char x= ' ';
+    char digitado[20];
+    printf("Digete o seu nome: ");
+    gets(digitado);
+    for (int i= 0; i<strlen(digitado); i++){
+        if(digitado[i]==x){
+            n++;
+        }
+    } printf("%d",n);
+    return 0;
+}
